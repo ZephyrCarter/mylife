@@ -3,8 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body {font-family: Arial;
-background-color: lightblue;}
+body {font-family: Arial;}
 
 /* Style the tab */
 .tab {
@@ -41,7 +40,7 @@ background-color: lightblue;}
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
-  background-color: white;
+  height: 100%;
 }
 
 /* Style the close button */
@@ -56,55 +55,56 @@ background-color: lightblue;}
 </head>
 <body>
 
-<h2>Tabs</h2>
-<p>Click on the x button in the top right corner to close the current tab:</p>
+<h2>Zephyr Carter</h2>
+<p>This is my website/blog! <br>
+Here I have a variety of content, including my travels, BSA progress and many other things! </p>
 
+<hr>
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+   <button class="tablinks" onclick="openCity(event, 'Search')" id="defaultOpen">Search</button>
+  <button class="tablinks" onclick="openCity(event, 'Travel')" id="defaultOpen">Travel</button>
+  <button class="tablinks" onclick="openCity(event, 'MC_Economy')">MC Economy</button>
+  <button class="tablinks" onclick="openCity(event, 'DIY')">DIY</button>
+   <button class="tablinks" onclick="openCity(event, 'Resume')">Resume</button>
+   <button class="tablinks" onclick="openCity(event, 'Scouting')">Scouting</button>
 </div>
 
-<div id="London" class="tabcontent">
+
+
+<div id="Search" class="tabcontent">
   <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
-  <h3>My DIY</h3>
-  <p>All of my DIY projects</p>
+  <h3>Searching</h3>
+ search bar
 </div>
 
-<div id="Paris" class="tabcontent">
+<div id="Travel" class="tabcontent">
   <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
-  <h3>Resume</h3>
-  <p>My Resume</p> 
+  <h3>Travel</h3>
+ sometext about my travels
 </div>
 
-<div id="Tokyo" class="tabcontent">
+<div id="MC_Economy" class="tabcontent">
   <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
-  <h3>Search</h3>
-  <p>Search bar</p>
+  <h3>Minecraft Economy</h3>
+  <p>Minecraft Economy</p> 
 </div>
 
-  <div id="Tokyo" class="tabcontent">
+<div id="DIY" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  <h3>DIY</h3>
+  <p>Some stuff about my do-it-yourself content</p>
+</div>
+
+<div id="Resume" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+  <h3>My Resume</h3>
+  <p>My Resume</p>
+</div>
+
+<div id="Scouting" class="tabcontent">
   <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
   <h3>Scouting</h3>
-  <p>My Scouting</p>
-</div>
-
-  <div id="Tokyo" class="tabcontent">
-  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
-  <h3>Travels</h3>
-  <p>My travels</p>
-</div>
-
-  <div id="Tokyo" class="tabcontent">
-  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
-  <h3>Minecraft economic adventure</h3>
-  <p>My minecraft economic adventures</p>
-</div>
-
-  <div id="Tokyo" class="tabcontent">
-  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
-  <h3>Travels</h3>
-  <p>My travels</p>
+  <p>Scouting</p>
 </div>
 
 <script>
@@ -125,7 +125,9 @@ function openCity(evt, cityName) {
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
 </script>
+   <hr>
    
+   <h3>Some songs I like:</h3>
    
 </body>
 </html> 
