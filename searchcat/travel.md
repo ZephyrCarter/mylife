@@ -1,3 +1,6 @@
+<a href="https://zephyrcarter.github.io/mylife/searchcat/search.html">Search</a>
+<a href="https://zephyrcarter.github.io/mylife/searchcat">Home</a>
+
 ## Here is a series of photos from all the legs of the trip from San Jose CA to Washington DC
 
 <hr>
